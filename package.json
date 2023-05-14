@@ -2,12 +2,10 @@
   "name": "fair-force-qa",
   "version": "1.0.0",
   "description": "Sample application for QA testing",
-  "main": "app.js",
-  "scripts": {
-    "start": "nodemon app.js",
-    "build": "tsc",
-    "sass": "node-sass src/styles.scss -o src"
-  },
+  "main": "app.ts",
+"scripts": {
+  "build": "npx node-sass src/scss/main.scss -o dist/css"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
