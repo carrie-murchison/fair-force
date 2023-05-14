@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&display=swap");
+body {
+  background-color: tan;
+  color: navy;
+  font-family: "Paytone One", sans-serif; }
+
+a {
+  color: burgundy; }
+
+.button {
+  background-color: burgundy;
+  color: tan;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none; }

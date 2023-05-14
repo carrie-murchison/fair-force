@@ -5,8 +5,7 @@
   "main": "dist/app.js",
   "type": "module",
   "scripts": {
-    "start": "node dist/app.js",
-    "build-css": "node-sass src/scss -o dist/css"
+    "start": "node --experimental-modules dist/app.js"
   },
   "repository": {
     "type": "git",
@@ -15,11 +14,11 @@
   "author": "Carrie Murchison",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
-    "ejs": "^3.1.6"
+    "ejs": "^3.1.6",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "node-sass": "^6.0.1"
   }
 }
-
