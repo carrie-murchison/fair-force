@@ -1,0 +1,18 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled JavaScript files
+/dist/
+
+# Ignore any files or directories specific to your development environment
+# (e.g., IDE files, temporary files)
+.idea/
+.vscode/
+*.log
+
+# Ignore the package-lock.json file if you are using npm
+package-lock.json
+
+# Ignore any sensitive or environment-specific configuration files
+config.js
+.env
