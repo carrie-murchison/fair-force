@@ -1,9 +1,9 @@
-
+{
   "name": "fair-force",
   "version": "1.0.0",
   "description": "Fair Force - Software Testing Services and Training",
   "main": "dist/app.js",
-  "scripts": { 
+  "scripts": {
     "start": "node dist/app.js",
     "build": "tsc && npm run copy-assets",
     "copy-assets": "mkdir -p dist/css && cp src/css/styles.css dist/css && cp -R src/assets dist",
