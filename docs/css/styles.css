@@ -1,0 +1,80 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #974724;;
+}
+
+a {
+  color: #181F45;
+  text-decoration: none;
+}
+
+/* Header styles */
+header {
+  background-color:#507060 ;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url(assets/images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px;
+  color: #E5DDC7;
+}
+
+.hero h2 {
+  font-family: 'Georgia', serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #9F926E;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Services section styles */
+.services {
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+.services h3 {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+ 
