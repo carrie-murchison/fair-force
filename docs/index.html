@@ -10,13 +10,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 	  <link rel="stylesheet" href="css/fairforce.css">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lemon" />
 
   <style>
     /* Add any additional styles specific to this page */
   
 
   @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
-
+	  
+h1 { font-family: Papyrus, fantasy; font-size: 24px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 24px; } 
+h3 { font-family: Lemon; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+p { font-family: Lemon; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: Lemon; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: Lemon; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+	  
  body {
         align-items: center;
 	background-color: #E5DDC7;
@@ -24,10 +31,11 @@
 	text-align: center;
         width: 95%;
         margin-left: 2.5%;
-         font-family:  'Oxygen', sans-serif;
        font-style: oblique;
 }
- 
+ .fair-enter, .qa-enter{
+	 text-align: center;
+	  }
 .container {
 margin-top: 40px;  
 margin-left: auto;
@@ -36,8 +44,6 @@ margin-left: auto;
   border-radius: 25px;
   background-color: #9F926E;
   color: #974724;
-  font-family: 'Oxygen', sans-serif;
-  font-style: bold;
   text-align: center;
   padding: 20px, 20px, 20px, 20px;
 }
@@ -101,7 +107,7 @@ h3 .top-nav, .qa-nav, .force-nav {
   <main>
     <section class="container services">
 
-	 <h3>Join the Fair Force</h3>
+	 <h3 class="fair-enter">Join the Fair Force</h3>
 	<nav>
       <ul id="force-nav">
         <li class="force-nav"><a href="#">Theory of Change</a></li>
@@ -113,7 +119,7 @@ h3 .top-nav, .qa-nav, .force-nav {
     </section>
 
     <section class="services container">
-      <h3>QA Services</h3>
+      <h3 class="qa-enter">QA Services</h3>
         <nav>
       <ul id="qa-nav">
         <li class="qa-nav"><a href="#">Customer Portal</a></li>
