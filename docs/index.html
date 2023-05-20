@@ -16,13 +16,14 @@
     /* Add any additional styles specific to this page */
   
 
-  @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
-	  
-h1 { font-family: Papyrus, fantasy; font-size: 24px; font-style: normal; font-variant: small-caps; font-weight: 700; line-height: 24px; } 
-h3 { font-family: Lemon; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
-p { font-family: Lemon; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
-blockquote { font-family: Lemon; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
-pre { font-family: Lemon; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
+}
+
+* {
+   font-family: myFirstFont;
+}
 	  
  body {
         align-items: center;
