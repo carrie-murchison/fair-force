@@ -14,10 +14,8 @@
   <style>
     /* Add any additional styles specific to this page */
    body {
-        align-items: center;
 	background-color: #E5DDC7;
 	color: #974724;
-	text-align: center;
         width: 95%;
         margin-left: 2.5%;
 font-family: 'Titillium Web', sans-serif;
@@ -38,7 +36,7 @@ margin-left: 15%;
   margin-right: 15%;
   display: block;
   border-radius: 25px;
-  background-image: url(assets/images/qaback.gif);
+  background-image: url(assets/images/qaback.png);
   color: #E5DDC7;
   text-align: center;
 }
@@ -70,24 +68,25 @@ li a:hover {
   background-color: #CD8143;
 }
 
-#qa-nav, #force-nav{
-  display:         flex;
-  flex-wrap:       wrap;
-  justify-content: center;	  }
 h3 .top-nav, .qa-nav, .force-nav {
  margin: 2%, 2%, 2%, 2%;
  color: #E5DDC7;
  font-weight: 700;
  font-style: oblique;
  font-size: 1em;
- text-align: center;
-}
+display: inline-block;
+	  }
 .col {
-	width: 33%;
-	display: inline-block;
+	width: 50%;
 	float: left;
 }
-
+.qa{
+  color: #181F45;
+  font-weight: 700;
+  font-style: oblique;
+  font-size: 1em;
+  display: inline-block;
+}
 	
   </style>
 </head>
@@ -124,7 +123,7 @@ h3 .top-nav, .qa-nav, .force-nav {
     </nav> 
 	</br>    
   
-      <h3 class="qa-enter">QA Services</h3>
+      <h3 class="qa">QA Services</h3>
         <nav>
       <ul id="qa-nav">
         <li class="qa-nav"><a href="#">Customer Portal</a></li>
@@ -136,7 +135,7 @@ h3 .top-nav, .qa-nav, .force-nav {
     </section>
 
   </main>
-
+</br>
   <footer>
     <p>&copy; 2023 Fair Force. All rights reserved.</p>
   </footer>
