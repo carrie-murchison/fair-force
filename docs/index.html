@@ -82,6 +82,11 @@ h3 .top-nav, .qa-nav, .force-nav {
  font-size: 1em;
  text-align: center;
 }
+.col {
+	width: 33%;
+	display: inline-block;
+	float: left;
+}
 
 	
   </style>
@@ -89,6 +94,7 @@ h3 .top-nav, .qa-nav, .force-nav {
 
 <body>
   <header>
+<image src="assets/images/fairforce logo vector.png" style="width: 200px; height: auto; margin-left: 0; margin-top: 0"></image>
 	<div>
 	<nav>
         <ul id="top-nav">
@@ -100,10 +106,14 @@ h3 .top-nav, .qa-nav, .force-nav {
 	</nav>
 	</br>
 	</div>
-	<image src="assets/images/fairforce logo vector.png" style="width: 100px; height: auto; margin-left: 0; margin-top: 0"></image>
 	<main class="main">
-    <section class="container">
-
+		<section class="attn col">
+		<div>
+			<image src="assets/images/consider.png"></image> </br>
+				<image src="assets/images/external.png"></image>
+		</div>
+	</section>
+    <section class="container col">
 	 <h3 class="fair-enter">Join the Fair Force</h3>
 	<nav>
       <ul id="force-nav">
@@ -114,13 +124,8 @@ h3 .top-nav, .qa-nav, .force-nav {
     </nav> 
 	</br>    
     </section>
-	<section class="attn">
-		<div>
-			<image src="assets/images/consider.png"></image>
-				<image src="assets/images/external.png"></image>
-		</div>
-	</section>
-    <section class="qacontainer">
+	
+    <section class="qacontainer col">
       <h3 class="qa-enter">QA Services</h3>
         <nav>
       <ul id="qa-nav">
