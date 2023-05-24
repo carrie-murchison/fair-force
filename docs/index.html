@@ -108,6 +108,13 @@ Mogra-Regular;
 }
 
 .img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: flip 10s infinite;
+}
+    .img2 {
   width: 200px;
   height: 200px;
   position: relative;
@@ -132,6 +139,26 @@ Mogra-Regular;
     transform: rotateY(360deg);
   }
 }
+          .tape {
+        width: 250px;
+        height: 250px;
+        background: #8ebf42;
+        -webkit-transition-property: width;
+        -moz-transition-property: width;
+        -o-transition-property: width;
+        transition-property: width;
+        -webkit-transition-duration: 1s;
+        -moz-transition-duration: 1s;
+        -o-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-delay: 0s;
+        -moz-transition-delay: 0s;
+        -o-transition-delay: 0s;
+        transition-delay: 0s;
+      }
+      .tape:hover {
+        width: 400px;
+      }
 
     .foot {
       display: block;
@@ -149,6 +176,7 @@ Mogra-Regular;
     <img src="assets/images/fairforce logo vector.png" style="width: 200px; height: auto; margin-left: 0; margin-top: 0; display: inline-block; float: left;" alt="Fair Force Logo">
     <div>
       <nav>
+ 
         <ul id="top-nav">
           <li class="top-nav"><a href="#">Home</a></li>
           <li class="top-nav"><a href="apply.html">Join Fair Force</a></li>
@@ -156,18 +184,22 @@ Mogra-Regular;
           <li class="top-nav"><a href="#">Contact</a></li>
         </ul>
       </nav>
+  <div class="tape">
+    <img src="assets/images/tape.png" alt="Quality Assurance Image">
+  </div>
       <br>
     </div>
   </header>
   <main class="main">
 <section class="cont">
   <div class="attn">
-    <img src="assets/images/consider.png" alt="Considering Internal QA? Image">
+       <div class="img-container">
+  <div class="img2">
+    <img src="assets/images/Quality-reliability-sign.png" alt="Quality Assurance Reliability Image">
+  </div>
+    <img src="assets/images/internal-qa.png" alt="Considering Internal QA? Image">
     <img src="assets/images/why.png" alt="why fair force QA Image">
     <div class="img-container">
-  <div class="img">
-    <img src="assets/images/tape.png" alt="Quality Assurance Image">
-  </div>
 </div>
   </div>
   <div class="buttons">
