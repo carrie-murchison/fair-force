@@ -76,7 +76,6 @@ Mogra-Regular;
 
 
   .buttons {
-    margin-right: 20px;
   background-image: url(assets/images/qaback.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,8 +94,9 @@ Mogra-Regular;
   line-height: 2em;
   font-weight: bold;
   width: 100%;
-  padding: 5% 45% 40% 45%;
+  padding: 25px auto;
   display: block;
+  justify-content: center;
 }
 .buttons a:hover {
     color: #CD8143;
@@ -110,6 +110,8 @@ Mogra-Regular;
     .img-container2 {
   width: 450px;
   height: auto;
+       display: flex;
+      flex-wrap: wrap;
     }
   .img{
    transform-style: preserve-3d;
@@ -136,19 +138,21 @@ Mogra-Regular;
   margin-left: 1%;
   width: 29%
     object-fit: contain;
+       float: left;
+
     }
  .col2{
    margin-left: 25%;
    width: 29%;
    object-fit: contain;
-   justify-content: center;
+   line-height: 2em;
+        float: left;
+
     }
     
     .col3{
-     float: left;
       width: 30%;
       object-fit: contain;
-      justify-content: left;
     }
 
 
@@ -183,12 +187,12 @@ Mogra-Regular;
 <div class="img-container col2">
   <div class="img2">
     <img src="assets/images/why.png" alt="why fair force QA Image">
-
  </div>
-</div>
-    <div class="buttons col3">
+   <div class="buttons col3">
       <p class="click"><a href="whyfairforce.html">Why Use </br> Fair Force QA?</a></p> </br> </br>
   </div>
+</div>
+   
   </main>
   <br>
   <div class="col2" style="margin-top: 10px; display: block; ">
