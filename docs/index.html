@@ -69,7 +69,7 @@ Mogra-Regular;
       color: #181F45;
    display: flex;
       flex-wrap: wrap;
-      justify-content: center; 
+      justify-content: left; 
 }
 
 
@@ -80,7 +80,7 @@ Mogra-Regular;
   border-radius: 15px; 
    display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: right;
     }
 
 .buttons a {
@@ -90,7 +90,6 @@ Mogra-Regular;
   text-align: center;
   font-size: 1.5em;
   font-weight: bold;
-  display: block;
   width: 100%;
   padding: 5% 15% 10% 5%;
 
@@ -99,36 +98,25 @@ Mogra-Regular;
     color: #CD8143;
     }
 .img-container {
-  width: 200px;
+  width: 300px;
   height: 200px;
      display: flex;
       flex-wrap: wrap;
-      justify-content: left;
     }
     .img-container2 {
-  width: 400px;
+  width: 450px;
   height: auto;
     }
   .img{
    transform-style: preserve-3d;
   animation: flip 10s infinite;
-   margin: 0 5px 0 15px;
        display: flex;
       flex-wrap: wrap;
       justify-content: left;
 }
 
-    .img2{
-    margin: 20px 5px 20px 15px;
-}
 
-.img  img {
-  object-fit: contain;
-}
-    .img2  img {
-  object-fit: contain;
-}
-
+  
 @keyframes flip {
   0% {
     transform: rotateY(0deg);
@@ -144,17 +132,22 @@ Mogra-Regular;
   margin-left: 1%;
   margin-right: 75%;
   width: 28%
+    object-fit: contain;
     }
  .col2{
    margin-left: 29%;
    margin-right: 29%;
    width: 28%;
+   object-fit: contain;
+   justify-content: center;
     }
     
     .col3{
       margin-left: 75%;
       margin-right: 1%;
       width: 28%;
+      object-fit: contain;
+      justify-content: right;
     }
 
 
@@ -165,7 +158,7 @@ Mogra-Regular;
   <header>
     <img src="assets/images/fairforce logo vector.png" style="width: 200px; height: auto; margin-left: 0; margin-top: 0; display: inline-block; float: left;" alt="Fair Force Logo">
          <nav>
-         <ul id="top-nav">
+         <ul id="top-nav col2">
           <li class="top-nav"><a href="#">Home</a></li>
           <li class="top-nav"><a href="apply.html">Join Fair Force</a></li>
           <li class="top-nav"><a href="whyfairforce.html">QA Services</a></li>
@@ -180,25 +173,25 @@ Mogra-Regular;
     <img src="assets/images/Quality-reliability-sign.png" alt="Quality Assurance Reliability Image">  
      </div>
       </div>
-      <div class="img-container col2">
-       <p class="attn">thinking </br>
+      <div class="img-container">
+       <p class="attn col2">thinking </br>
     about using </br>
     internal QA?
       </p> 
 </div>
-<div class="img-container col1">
+<div class="img-container col2">
   <div class="img2">
     <img src="assets/images/why.png" alt="why fair force QA Image">
-   <div class="buttons col2">
-    <p class="click"><a href="whyfairforce.html">Why Use Fair Force QA</a></p> </br> </br>
-  </div>
+
  </div>
 </div>
- 
+    <div class="buttons col3">
+    <p class="click"><a href="whyfairforce.html">Why Use Fair Force QA</a></p> </br> </br>
+  </div>
   </main>
   <br>
   <div style="margin-top: 20px; display: block; ">
-    <footer class="foot">
+    <footer class="foot col2">
       <p>&copy; 2023 Fair Force. All rights reserved.</p>
     </footer>
     <div>
